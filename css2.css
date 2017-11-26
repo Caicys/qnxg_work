@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>caicys</title>
+	<style type="text/css">
+#total{
+		height: 1400px
+		width:1250px;
+}
+#div1{
+	 height: 60px;
+	 text-decoration: none;
+	 width: 1250px;
+	 background-color:#ff6666;
+}
+#div1-kuang{
+	 height: 30px;
+	 width: 30px;
+	 background-color:white;
+	 float: left;
+	 margin-left: 40px;
+	 margin-top: 15px; 
+}
+#div1-kuang2{
+	height: 15px;
+	width: 15px;
+	background-color: #ff6666;
+	float: right;
+	margin-left: 15px;
+	margin-top: 15px; 
+}
+#div1-kuang3{
+	height: 13px;
+	width: 13px;
+	background-color: white;
+	float: right;
+	margin-left: 2px;
+	margin-top: 2px; 
+}
+   .bar7 {background: #ff6666;}
+        .bar7 form {
+            height: 30px;
+            width: 250px;
+            float: left;
+            margin-top: 20px;
+            margin-left: 850px;
+        }
+        .bar7 input {
+            width: 200px;
+            border-radius: 42px;
+            border: 2px solid #324B4E;
+            background: #F9F0DA;
+            transition: .3s linear;
+            float:left;
+                }
+        .bar7 button {
+            background: #ff6666;
+            border-radius:15px;
+        }
+        .bar7 button:before{
+          color: #ff9999;
+          margin-left: 10px;
+        }
+        #denglu{
+        	text-decoration: none;
+        	float: right;
+        	margin-right: 20px;
+        	margin-top: 20px;
+        	color: white;
+        }
+		#div2{
+			 height: 1360px;
+		}
+		#div2-left{
+			 height: 1350px;
+			 width: 200px;
+			 float: left;
+			 padding-top: 20px;
+			 background-color: #ff9999;
+		}
+		
+		#p1{
+			font-size: 30px;
+			margin-top: 0px;
+			color: white;
+			text-align: center;
+		}
+		#p2{
+			font-size: 15px;
+			color: grey;
+			float: left;
+			margin-left: 50px;
+			text-decoration: none;
+		}
+		#div2-left1{
+			background-color: #ffcccc;
+			height: 250px;
+			width: 200px;
+			margin-top: 90px;
+		}
+		#p3{
+			font-size: 16px;
+			color: white;
+			margin-left:40px;
+			padding-top: 10px;
+		}
+		#div-zi{
+			width: 200px;
+			height: 20px;
+			margin-top: 20px;
+		}
+		#p4{
+			font-size: 13px;
+			color: grey;
+			margin-left: 55px;
+			text-decoration: none;
+		}
+		#p5{
+			font-size: 13px;
+			color: white;
+			margin-left: 55px;
+			text-decoration: none;
+		}
+		#p6{
+			font-size: 11px;
+			color: white;
+			margin-left: 65px;
+			text-decoration: none;
+		}
+		#p7{
+			font-size: 11px;
+			color: grey;
+			margin-left: 65px;
+			text-decoration: none;
+		}
+		#p8{
+			font-size: 13px;
+			color: grey;
+			margin-left: 50px;
+			text-decoration: none;
+		}
+
+		#div2-right{
+			float: right;
+			height: 1350px;
+			width: 1045px;
+		}
+		#div-c{ /*c站那一行*/
+			height: 30px;
+			width: 1040px;
+			margin-left:30px;
+			background-color: white;
+		}
+		#p9{  /*c站，个人报表*/
+			font-size: 11px;
+			color: grey;
+			margin-top: 10px;
+			float: left;
+		}
+		#p10{ /*文档1*/
+			color: #ff6666;
+			font-size: 11px;
+			margin-top: 10px;
+			float: left;
+			text-decoration: none;
+		}
+
+		#div3{  /*右边大大的那块*/
+			height: 1340px;
+			width: 1047px;
+			background-color: #eeeeed;
+		}
+		#div4{
+				height: 20px;
+				width: 1045px;
+				background-color: #eeeeed;
+		}
+		#div5{  /*第一白块*/
+			height: 130px;
+			width: 930px;
+			background-color:white;
+			margin:0px 50px 30px; 
+		}
+		#chaxunxiang{
+			height: 130px;
+			width: 50px;
+			float: left;
+			margin-left: 40px;
+		
+		}
+		#p11{
+			font-size: 13px;
+			color: grey;
+			margin-top: 22px;
+			margin-left:10px;
+		}
+		#chaxun{  /* 查询项*/
+			height: 130px;
+			width:50px;
+			float: left;
+			margin-top: 20px;
+			margin-left:10px;
+		}
+		#maifang{
+			height:130px;
+			width: 50px;
+			float: left;
+			margin-left: 80px;
+		    
+		  }
+		#maifang-kuang{
+			height: 130px;
+			width: 100px;
+			float: left;
+			margin-left: 0px;
+			margin-top: 20px;
+		}
+		#riqi{
+			height:130px;
+			width: 50px;
+			float: left;
+			margin-left: 40px;
+		    
+		  }
+		#riqi-kuang{
+			height: 130px;
+			width: 100px;
+			float: left;
+			margin-left: 0px;
+			margin-top: 20px;
+		}
+		#zonghaoshi{
+			height:130px;
+			width: 50px;
+			float: left;
+			margin-left: 40px;
+		    
+		  }
+		#zonghaoshi-kuang{
+			height: 130px;
+			width: 100px;
+			float: left;
+			margin-left: 0px;
+			margin-top: 20px;
+		}
+		#sousuo  form{
+			float: left;
+			margin-top: 40px;
+			margin-left:10px;
+			background-color: #ff9999;
+		}
+		#sousuo button: {
+			background-color: #ff9999;
+			border-radius: 3px;
+			
+		}
+
+		#div6{ /*时间表那一整行*/
+			height: 120px;
+			width: 1000px;
+			background-color: #eeeeed;
+			margin-bottom: 0px;
+		}
+		#div6-1{
+			background-color:white; 
+			float: left;
+			margin-left:50px;
+			height: 80px;
+			width: 40px;
+		}
+		#p12{
+			text-align: center;
+			color: #eeeeed;
+			font-size: 30px;
+			margin-top: 30px;
+
+		}
+		#div6-2{ /*11~14*/
+			background: white;
+			float: left;
+			height: 80px;
+			width: 130px;
+			margin-left: 5px;
+		}   
+		#div6-2-1{ /*10am*/ 
+			background: white;
+			float: left;
+			height: 80px;
+			width: 130px;
+			margin-left: 5px;
+			border-top: 3 px solid #ff6666;
+		}
+		#p13{  //*11.00~14am*/
+			font-size: 12px;
+			text-align: center;
+			margin-top: 10px;
+		}
+		#p14{
+			font-size: 17px;
+			color: red;
+			text-align: center;
+		}
+		#div6-3{
+			background-color:white; 
+			float: left;
+			margin-left:5px;
+			height: 80px;
+			width: 40px;
+		}
+		#div6-4{ /*历史查询*/
+			height: 80px;
+			width: 165px;
+			background: white;
+			margin-left: 5px;
+			float: left;
+		}
+		#p15{
+			font-size: 17px;
+			color: grey;
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		#div7{  /*2016年4月份统计那一整行*/
+			height: 150px;
+			width: 1000px;
+			background-color: #eeeeed;
+		}
+		#div7-zi{  /*2016年4月那行字*/
+			height: 14px;
+			width: 1000px;
+			background-color: #eeeeed; 
+		}
+		#p16{
+			font-size: 14px;
+			color: black;
+			float: left;
+			margin-left: 50px;
+			margin-bottom:0px;
+		}
+		#div7-kuang{  /*2333框的那一整行*/
+			height: 100px;
+			width: 1000px;
+			float: left;
+			background-color: #eeeeed;
+
+		}
+		#div7-kuang1{
+			/*133311那些框框*/
+			float: left;
+			height: 100px;
+			width: 200px;
+			background-color: white;
+			border-left: 3px solid #43b29e;
+			margin-left: 50px;
+			margin-top: 20px;
+		}
+		
+		#div7-kuang2{
+			/*133311那些框框*/
+			float: left;
+			height: 100px;
+			width: 200px;
+			background-color: white;
+			border-left: 3px solid #388ac1;
+			margin-left: 35px;
+			margin-top: 20px;
+		}
+	
+		
+		#div7-kuang3{
+			/*133311那些框框*/
+			float: left;
+			height: 100px;
+			width: 200px;
+			background-color: white;
+			border-left: 3px solid #d04b36;
+			margin-left: 35px;
+			margin-top: 20px;
+		}
+		
+		
+		#div7-kuang4{
+			/*133311那些框框*/
+			float: left;
+			height: 100px;
+			width: 200px;
+			background-color: white;
+			border-left: 3px solid #e2cd46;
+			margin-left: 35px;
+			margin-top: 20px;
+		}
+		#xixi1{
+			float: right;
+			margin-top:13px;
+			margin-right:10px;  
+		}
+
+		#div8{  /*第一项目那一整行*/
+			height: 800px;
+			width: 1000px;
+			background-color: #eeeeed;
+			float: left;
+		}
+
+		#div8-top{  /*上面两大块*/
+			height: 400px;
+			width: 1000px;
+			margin-top: 20px;
+		}
+		#div8-1{  /*第一块*/
+			height: 380px;
+			width: 600px;
+			border: 1px solid grey;
+			border-radius: 8px;
+			float: left;
+			margin-left: 50px;
+			background-color: white;
+
+		}
+		#div8-1-1{
+			/*第一项目框*/
+			height: 40px;
+			width: 100%;
+		background-color: #f4f5f6;
+		}
+		#p18{
+			/*第一项目的字*/
+			float: left;
+			margin-left: 10px;
+			font-size: 12px;
+			color: grey;
+		}
+		#div-xiangmu1{
+			/*包含项目一跟裱框的一整个*/
+			height: 300px;
+			width: 600px;
+			background-color: white;
+		}
+		#xiangmu{
+			height: 20px;
+			width:600px;
+			background-color: white;
+		}
+		#xiangmu1{
+			height: 25px;
+			width: 80px;
+			float: left;
+			border-radius: 3px;
+			background-color: white;
+			border-top: 1px solid grey;
+			border-left: 1px solid grey;
+			border-right: 1px solid grey;
+
+			margin-left: 60px;
+			margin-top: 30px;
+		}
+		#xiangmu2{
+			height: 25px;
+			width: 80px;
+			float: left;
+			border-radius: 3px;
+			background-color: #cccccc;
+			border: 1px solid grey;
+			margin-left: 3px;
+			margin-top: 30px;
+		}
+		#xiangmu-dakuang{
+			height: 270px;
+			width: 550px;
+			text-align: center;
+			border: 1px solid
+		#cccccc;
+		margin-left: 40px;
+		border-radius: 3px;
+		margin-top: 35.3px;
+		}
+		#biaoge{
+			text-align: center;
+			height: 200px;
+			width: 400px;
+			background-color: white;
+			margin-top: 50px;
+			margin-left:60px;
+		}
+		#biaoge td{
+			font-size: 18px;
+			padding: 3px 3px;
+			 border: solid #cccccc;
+  				border-top-width: 1px;
+ 			 border-right-width: 1px;
+  				border-bottom-width: 1px;
+  				border-left-width: 1px;
+		}
+		#dazhong{
+			height: 3px;
+			width: 50px;
+		}
+
+
+		#div8-2{
+			height: 380px;
+			width: 310px;
+			border: 1px solid grey;
+			border-radius: 8px;
+			float: left;
+			margin-left: 5px;
+			background-color: white;
+		}
+		#div8-2-2{
+			height: 330px;
+			width: 310px;
+			background-color: white;
+		}
+		#p19{  /*标题，价格，负责人。。。*/	 width: 310px;
+			height: 15px;
+			font-size: 13px;
+			color: grey;
+			float: left;
+			margin-left: 30px;
+		}
+		#p20{ /*项目报名表。。。*/  width: 310px;
+			height: 15px;
+			font-size: 13px;
+			color: black;
+		margin-left: 30px;
+		}
+		#baomingbiao{
+			/*报名表的框*/
+			height: 80px;
+			width: 280px;
+			margin-left: 15px;
+			border-top:1px solid #cccccc;
+			border-bottom: 1px
+			solid #cccccc;  
+		}
+		#fuzeren{
+			height: 100px;
+			width: 280px;
+			margin-left: 15px;
+			border-bottom: 1px
+			solid #cccccc;  
+		}
+		a{
+			text-decoration: none;
+		}
+
+		#div8-3{
+			float: left;
+			height: 380px;
+			width: 300px;
+			margin-left: 50px;
+			margin-top: 5px;
+			background-color: white;
+			border-radius:8px;
+			border:1px solid grey;
+
+		}
+		#rili{  /*选项框有年份月份日期的那一行*/
+			height: 40px;
+			width: 280px;
+			margin-left: 10px;
+			border-bottom:1px solid pink; 
+
+		}
+		#xuankuang form{
+			float: left;
+			margin-left: 5px;
+			font-size: 25px;
+		}
+		#xingqi{
+			height: 40px;
+			width: 280px;
+			border-bottom: 1px solid #cccccc;
+			margin-left: 10px;
+		}
+		#div8-4{
+			float: left;
+			height: 380px;
+			width: 610px;
+			margin-left: 5px;
+			margin-top: 5px;
+			background-color: white;
+			border-radius:8px;
+			border:1px solid grey;
+		}
+		#paihang{
+			height: 280px;
+			width: 540px;
+			margin-left: 30px;
+			margin-top: 30px;
+			border: 1px solid
+			#cccccc;
+		}
+		
+
+	</style>
+
+</head>
+<body>
+
+</body>
+</html>
